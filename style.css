@@ -303,6 +303,7 @@ h5{
 }
 
 
+
 /* responsividade celulares */
 @media (max-width: 450px) { 
 * {
@@ -391,23 +392,17 @@ h5{
     .about{
       padding: 10px;
       margin:100 20 20 20px ;
-      background-color: black;
-     
-   
+      background-color: black;   
     }
-   
     .about text{
-   
     }
-   
     h2{
       margin: 0 0 0 0px;
       padding: 50px;
       font-size: 25px;
       font-style: italic;
       color: yellow;
-    }
-   
+    } 
     h6{
       padding: 10px;
       color: white;
@@ -422,6 +417,9 @@ h5{
     font-size: 20px; 
     font-weight: normal;
     }
+  .testimonials h1{
+    color: yellow;
+    }  
   .testimonials{
       display: flex;
       flex-wrap: wrap;
@@ -440,36 +438,32 @@ h5{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 10px;
+      gap: 300px;
       align-items: flex-start;
       text-align: center;
-      height: 850px;
+      height: 2000px;
       padding: 10px;
     }
   .antes-depois {
-      width: 150px;
-      height: 150px;
-      padding: px;
-      margin: ;
+    width: 300px;
+    height: 350px;
     }
   .antes-depois img{
-      width: 150px;
-      height: 150px;
-      padding: px;
-    }
-  .testimonials h1{
-      color: yellow;
+    width: 300px;
+    height: 350px;
+      margin: ;
     }
   .antes-depois h5{
       color: rgb(0, 0, 0);
-      width: 150px;
-      height: 160px;
+      width: 280px;
+      height: 280px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      align-items: flex-start;
+      align-items: center;
       text-align: center;
-      font-size: 10px;
+      font-size: 15px;
+      padding:10px;
     }
     .footer{
       background-color: yellow ;
@@ -480,16 +474,17 @@ h5{
       text-align: center;
       gap:15px;
       display: grid;
-    }  
-    .address{
+      position: absolute;
+      height: max-content;    
+    }    
+    .address .e-mail .telephone{
       background-color: yellow ;
       padding: 10px;
-     
     }
     .address h5 {
       color: rgb(0, 0, 0);
-      font-size: 25px;
-      text-align: left;
+      font-size: 20px;
+      text-align: center;
       font-style: italic;  
       height: 100%;
       width: 100%;
@@ -497,20 +492,15 @@ h5{
     .address h6{
       color: rgb(0, 0, 0);
       font-size: 15px;
-      text-align: left;
+      text-align: center;
       padding: 5px;
       height: 100%;
       width: 100%;
-    }
-    .e-mail{
-      background-color: yellow ;
-      padding: 10px;
-
-    }
+    }   
     .e-mail h5{
       color: rgb(0, 0, 0);
-      font-size: 25px;
-      text-align: left;
+      font-size: 20px;
+      text-align: center;
       font-style: italic;
       height: 100%;
       width: 100%;
@@ -518,21 +508,15 @@ h5{
     .e-mail h6{
       color: rgb(0, 0, 0);
       font-size: 15px;
-      text-align: left;
+      text-align: center;
       padding: 5px;
       height: 100%;
       width: 100%;
     }
-
-    .telephone{
-      background-color: yellow ;
-      padding: 10px;
-
-    }
     .telephone h5{
       color: rgb(0, 0, 0);
-      font-size: 25px;
-      text-align: left;
+      font-size: 20px;
+      text-align: center;
       font-style: italic;
       height: 100%;
       width: 100%;
@@ -540,12 +524,13 @@ h5{
     .telephone h6{
       color: rgb(0, 0, 0);
       font-size: 15px;
-      text-align: left;
+      text-align: center;
       padding: 5px;
       height: 100%;
       width: 100%;
     }
 }
+
 
 
 
