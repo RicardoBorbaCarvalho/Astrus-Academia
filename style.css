@@ -186,7 +186,7 @@ h4{
   align-items: flex-start;
   text-align: center;
   height: 505px;
-  padding: 20px;
+  padding: 40px;
 }
 .antes-depois {
   width: 350px;
@@ -208,7 +208,7 @@ h4{
   justify-content: center;
   align-items: flex-start;
   text-align: center;
-}
+  padding-top: 20px;
 .testimonials h1{
   color: yellow;
 }
