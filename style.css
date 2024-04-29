@@ -159,7 +159,6 @@ h4{
 .tour-astrus img {
   width: 300px;
   height: 350px;
-  transition: 0.35s ease;
 }
 .tour-astrus h5{
   color: #000000;
@@ -209,6 +208,8 @@ h4{
   align-items: flex-start;
   text-align: center;
   padding-top: 20px;
+
+}
 .testimonials h1{
   color: yellow;
 }
@@ -301,7 +302,6 @@ h5{
   padding: 15px;
   width: 340px;
 }
-
 
 
 /* responsividade celulares */
@@ -485,7 +485,6 @@ h5{
       color: rgb(0, 0, 0);
       font-size: 20px;
       text-align: center;
-      font-style: italic;  
       height: 100%;
       width: 100%;
     }
@@ -501,7 +500,6 @@ h5{
       color: rgb(0, 0, 0);
       font-size: 20px;
       text-align: center;
-      font-style: italic;
       height: 100%;
       width: 100%;
     }
@@ -517,7 +515,6 @@ h5{
       color: rgb(0, 0, 0);
       font-size: 20px;
       text-align: center;
-      font-style: italic;
       height: 100%;
       width: 100%;
     }
@@ -533,8 +530,10 @@ h5{
 
 
 
+  
+
 /* responsividade tablets */
-@media (min-width: 768px) and (max-width: 1024) {
+@media (min-width: 768px) and (max-width: 1024px) {
 * {
   padding: 0;
   margin: 0;
@@ -573,7 +572,7 @@ h5{
     text-align: center;
     margin: 0 0 0 0px;
     padding: 50px;
-    font-size: 50px;
+    font-size: 70px;
     font-style: italic;
     color: yellow;
   }  
@@ -589,7 +588,7 @@ h5{
       text-align: center;
       margin: 0 0 0 0px;
       padding: 10px;
-      font-size: 50px;
+      font-size: 70px;
       font-style: italic;
       color: yellow;
     }
@@ -694,11 +693,11 @@ h5{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 300px;
+        gap: 20px;
         align-items: flex-start;
         text-align: center;
-        height: 2000px;
-        padding: 10px;
+        height: 1330px;
+        padding: 20px;
       }
     .antes-depois {
       width: 300px;
@@ -718,7 +717,7 @@ h5{
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-size: 15px;
+        font-size: 20px;
         padding:10px;
       }
       .footer{
@@ -739,14 +738,14 @@ h5{
       }
       .address h5 {
         color: rgb(0, 0, 0);
-        font-size: 20px;
+        font-size: 30px;
         text-align: center;
         height: 100%;
         width: 100%;
       }
       .address h6{
         color: rgb(0, 0, 0);
-        font-size: 15px;
+        font-size: 25px;
         text-align: center;
         padding: 5px;
         height: 100%;
@@ -754,14 +753,14 @@ h5{
       }   
       .e-mail h5{
         color: rgb(0, 0, 0);
-        font-size: 20px;
+        font-size: 30px;
         text-align: center;
         height: 100%;
         width: 100%;
       }
       .e-mail h6{
         color: rgb(0, 0, 0);
-        font-size: 15px;
+        font-size: 25px;
         text-align: center;
         padding: 5px;
         height: 100%;
@@ -769,20 +768,17 @@ h5{
       }
       .telephone h5{
         color: rgb(0, 0, 0);
-        font-size: 20px;
+        font-size: 30px;
         text-align: center;
         height: 100%;
         width: 100%;
       }
       .telephone h6{
         color: rgb(0, 0, 0);
-        font-size: 15px;
+        font-size: 25px;
         text-align: center;
         padding: 5px;
         height: 100%;
         width: 100%;
       }
 }
-
-  
-
